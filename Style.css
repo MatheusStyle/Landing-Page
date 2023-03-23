@@ -1,6 +1,138 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+    font-family: 'Montserrat', sans-serif;
 }
+
+main {
+    background-image: url("./assets/background.png");
+    height: 100vh;
+}
+
+nav {
+    padding: 25px 0 0 35px;
+
+}
+
+#titulo-nav {
+    font-size: 24px;
+    color: #FFFFFF;
+    display: inline;
+
+}
+
+
+.nav-link {
+    font-size: 14px;
+    color: #FFFFFF;
+    display: inline;
+    margin-left: 25px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+h1 {
+    font-size: 58px;
+    color: #FFFFFF;
+    position: relative;
+    top: 280px;
+    margin-left: 65px;
+}
+
+form {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    float: right;
+    padding: 30px;
+   width: 355px;
+    margin-right: 58px;
+
+
+}
+
+
+input {
+    display: block;
+    height: 32px;
+    width: 291px;
+    background: #F9F9F9;
+    border-radius: 5px;
+    border: none;
+    color: #737373;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+
+.titulo-formulario {
+    font-size: 24px;
+    color: #252B42;
+    margin-bottom: 40px;
+}
+
+label {
+    font-size: 14px;
+    line-height: 24px;
+    color: #252B42;
+    margin-top: 20px;
+}
+
+textarea {
+    display: block;
+    border-radius: 5px;
+    
+    background: #F9F9F9;
+    height: 98px;
+    width: 291px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+}
+
+
+
+button {
+    height: 52px;
+    width: 291px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #40BB15;
+    border:none;
+    border-radius: 5px
+   
+   
+
+}
+.titulo-meio{
+    font-size: 40px;
+    color: #252B42;
+}
+.card{
+    
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #A9D6FF;
+    background-color:  #ffffff;
+
+}
+.titulo-card{
+    
+    background: #219653; ;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+ul{
+    
+    padding: 20px;
+
+}
+li{
+    margin:0 0 5px 10px ;
+}
+
