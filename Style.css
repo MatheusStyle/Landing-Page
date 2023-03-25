@@ -111,6 +111,7 @@ button {
 button:hover{
     background: #252B42;
     cursor: pointer;
+    transition: 0.7s ease-in-out;
 }
 .titulo-meio{
     font-size: 40px;
