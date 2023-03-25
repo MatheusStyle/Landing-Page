@@ -1,3 +1,3 @@
-let inicio = "Dando inicio ao JavasScript"
 
-console.log(inicio)
+
+console.log("Dando inicio ao JavasScript")

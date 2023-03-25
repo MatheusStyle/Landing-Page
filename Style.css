@@ -5,7 +5,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-main {
+
+
+#caixa-maior {
     background-image: url("./assets/background.png");
     height: 100vh;
 }
