@@ -1,3 +1,7 @@
 
 
-console.log("Dando inicio ao JavasScript")
+let form = document.getElementById("Formulario-contato")
+
+function mostrarFormulario(){
+    form.className = "visible-formulario"
+}

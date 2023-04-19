@@ -11,48 +11,50 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,100&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./Style.css">
-    <script src="./scripts.js"></script>
+
 
     <title>Landing Page-Aple</title>
 </head>
 
 <body>
-    <main id="caixa-maior">
+    <main class="caixa-maior">
 
         <nav>
-            <h2 id="titulo-nav"> Dev Contábil</h2>
-            <a href="" class="nav-link">Quem somos</a>
-            <a href="" class="nav-link">Serviços</a>
-            <a href="" class="nav-link">Contato</a>
+            <h2 class="titulo-nav"> Dev Contábil</h2>
+            <a href="#caixa-inferior" class="nav-link">Quem somos</a>
+            <a href="#titulo-meio" class="nav-link">Serviços</a>
+            <a href="#" class="nav-link" onclick=" mostrarFormulario()">Contato</a>
 
         </nav>
         <h1>Dev Contábil</h1>
 
-        <form>
+        <form id="Formulario-contato" action="https://formsubmit.co/matheusvazdev@gmail.com" method="POST">
             <h3 class="titulo-formulario">Entre em contato</h3>
 
             <label>
                 Nome
-                <input placeholder="Digite seu Nome" />
+                <input type="text" nome="nome" placeholder="Digite seu Nome" required />
             </label>
 
             <label>
                 E-mail
-                <input placeholder="Digite seu E-mail" />
+                <input type="email" nome="email" placeholder="Digite seu E-mail" required />
             </label>
 
             <label>
                 Fale conosco
-                <textarea placeholder="Qual sua duvida"></textarea>
+                <textarea nome="info" placeholder="Qual sua duvida"></textarea>
             </label>
-            <button>Enviar</button>
+
+            <button type="submit"> Enviar </button>
+
 
         </form>
     </main>
 
     <div>
 
-        <h2 class="titulo-meio">Nossos serviços</h2>
+        <h2 id="titulo-meio">Nossos serviços</h2>
 
 
         <div class="caixa-central">
@@ -96,7 +98,7 @@
 
     </div>
 
-    <div class="caixa-inferior">
+    <div id="caixa-inferior">
 
         <h2 class="titulo-inferior">Sobre nós</h2>
 
@@ -128,13 +130,13 @@
             das
             Operações e suas consequências tributárias passam a ser condições de competitividade, inclusive sugerindo
             incorporação ou desmembramento de atividades.
-            
-        
+
+
         </p>
     </div>
 
 
-
+    <script src="./scripts.js"></script>
 
 </body>
 

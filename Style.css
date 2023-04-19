@@ -7,8 +7,9 @@
 
 
 
-#caixa-maior {
+.caixa-maior {
     background-image: url("./assets/background-imagem.png");
+    background-size: cover;
     height: 100vh;
 }
 
@@ -17,7 +18,7 @@ nav {
 
 }
 
-#titulo-nav {
+.titulo-nav {
     font-size: 24px;
     color: #FFFFFF;
     display: inline;
@@ -44,6 +45,8 @@ h1 {
 }
 
 form {
+    opacity: 0;
+    transition: opacity 1s linear;
     background-color: #FFFFFF;
     border-radius: 10px;
     float: right;
@@ -52,6 +55,10 @@ form {
     margin-right: 58px;
 
 
+}
+
+.visible-formulario{
+    opacity: 1;
 }
 
 
@@ -113,7 +120,7 @@ button:hover{
     cursor: pointer;
     transition: 0.7s ease-in-out;
 }
-.titulo-meio{
+#titulo-meio{
     font-size: 40px;
     line-height: 57px;
     color: #252B42;
@@ -154,7 +161,7 @@ ul{
 li{
     margin:0 0 5px 10px ;
 }
-.caixa-inferior{
+#caixa-inferior{
     background: #252B42;
     width: 100vw;
     height: 90vh;
